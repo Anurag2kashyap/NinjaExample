@@ -46,7 +46,7 @@ public class TestUtil {
 
 	public void extentHtmlReport()
 	{
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter("C:\\Users\\ankashya\\git\\NinjaExample\\NinjaApplication\\Report\\ninjaHtmlReport.html");
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter("extentsReports.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 
